@@ -1,0 +1,19 @@
+[global_config]
+  focus = system
+  borderless = True
+  geometry_hinting = False
+  tab_position = hidden
+  window_state = hidden
+[keybindings]
+  go_up = <Alt>k
+  go_down = <Alt>j
+  go_left = <Alt>h
+  go_right = <Alt>l
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.8
+    background_type = transparent
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False

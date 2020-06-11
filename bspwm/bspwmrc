@@ -1,0 +1,41 @@
+#! /bin/sh
+
+sxhkd &
+
+bspc monitor -d I II III IV V VI VII VIII IX X
+
+bspc config border_width         2
+bspc config window_gap          12
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+bspc rule -a Gimp desktop='^8' state=floating follow=on
+bspc rule -a Chromium desktop='^2'
+bspc rule -a mplayer2 state=floating
+bspc rule -a Kupfer.py focus=on
+bspc rule -a Screenkey manage=off
+
+panel &
+
+# xrandr --output eDP-1 --off --output DP-1 --mode 3440x1440
+source ~/.zshrc
+
+# Set wallpaper
+feh --bg-center ~/Pictures/road.jpg
+
+# Set keyboard layout 
+setxkbmap -layout "us"
+
+# Connect headset at startup
+# pactl set-default-sink bluez_sink.CC_98_8B_22_8F_C0.a2dp_sink
+
+# picom -b 
+
+# Turn off laptop monitor
+# xrandr --output eDP-1 --off --output DP-1 --mode 3440x1440 
+# arandr ~/.config/.arandr.sh
+
+compton -b # to be changed with forked picom
+yabar &
