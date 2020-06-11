@@ -2,6 +2,7 @@
 
 Config files for
 * window-manager: bspwm
+* compositor: picom (forked compton)
 * status-bar: yabar
 * windows switcher: rofi
 * terminal: terminator/cool-retro-term
@@ -9,6 +10,8 @@ Config files for
 * shell: fish(framework: oh my fish)
 * web-browser: chromium/vivaldi (plugins: adblock, vimium)
 * text-editor: vim
+* file-manager: ranger
+* image-viewer: nomacs/ sxiv
 * virtualization:
 	virtualbox
 	vagrant
