@@ -1,30 +1,31 @@
 # dotfiles
 
 Config files for
-* window-manager: bspwm
+* window-manager: dwm (sometimes bspwm)
 * compositor: picom (forked compton)
 * status-bar: yabar
 * windows switcher: rofi
 * terminal: terminator/cool-retro-term
-* music: pulseaudio
+* music: pulseaudio (and `pacmd` for runtime configuration of pulseaudio)
 * shell: fish(framework: oh my fish)
-* web-browser: chromium/vivaldi (plugins: adblock, vimium)
+* web-browser: chromium/vivaldi (plugins: 
+                                 adblock plus, 
+                                 vimium, 
+                                 https everywhere)
 * text-editor: vim
 * file-manager: ranger
 * image-viewer: nomacs/ sxiv
-* virtualization:
-	virtualbox
-	vagrant
-	minikube
-	docker
-	docker-compose
-	docker-machine
-	helm
-	kubectl
-	kubectx
-	kubens
-	kubeadm
-  helm3 (plugins: secrets)
+* virtualization: (virtualbox, 
+                   vagrant, 
+                   minikube, 
+                   docker, 
+                   docker-compose, 
+                   docker-machine, 
+                   kubectl, 
+                   kubectx, 
+                   kubens, 
+                   kubeadm, 
+                   helm3, (plugins: secrets))
 * infra-as-code: terraform
 * screenshots: shutter
 * movies: vlc
@@ -45,16 +46,13 @@ pacmd [list-sinks|set-default-sink] -> set speakers/headset as sound output
 bluetoothctl (devices|list|scan-on|scan-off|trust|pair|connect|disconnect] 
 
 
-arandr -> setup monitors
+arandr/xrandr -> setup monitors
 
 
 xset r rate 300 50 -> key refresh/speed
 
 
-neofetch -> system info
+neofetch/uname -a -> system info
 
 
-uname -a -> system v
-
-
-
+figlet Colgateplax -> cool tool to write stuff in terminal
