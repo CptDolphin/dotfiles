@@ -3,7 +3,7 @@
 Config files for
 * window-manager: dwm (sometimes bspwm)
 * compositor: picom (forked compton)
-* status-bar: yabar
+* status-bar: none/yabar
 * windows switcher: rofi
 * terminal: terminator/cool-retro-term
 * music: pulseaudio (and `pacmd` for runtime configuration of pulseaudio)
