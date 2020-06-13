@@ -34,28 +34,39 @@ Config files for
 
 
 
-Usefull commands idk how much will put here, whatever comes to mind:
+### Usefull commands idk how much will put here, whatever comes to mind:
 
+Connect bluetooth headphones
 
-pulseaudio [-k|--start]
-
-
+```
+bluetoothctl (power on|scan on|scan off|devices|list|trust|pair|connect|disconnect] 
 pacmd [list-sinks|set-default-sink] -> set speakers/headset as sound output
+pulseaudio [-k|--start]
+```
 
+Position displays
 
-bluetoothctl (devices|list|scan-on|scan-off|trust|pair|connect|disconnect] 
+```
+arandr/xrandr
+```
 
+Set key refresh/speed
 
-arandr/xrandr -> setup monitors
+```
+xset r rate 300 50 
+```
 
+View some system info
 
-xset r rate 300 50 -> key refresh/speed
-
-
+```
 neofetch/uname -a -> system info
+```
 
+Display words in cool fashion
 
-figlet Colgateplax -> cool tool to write stuff in terminal
+```
+figlet Colgateplax 
+```
 
 
 ### First time setup Git on new system
